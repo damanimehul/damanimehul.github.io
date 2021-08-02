@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Senior at Nanyang Technological University, Singapore 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am Mehul Damani, a final year undergraduate studying Mechanical Engineering at NTU, Singapore. Currently, I hold concurrent research positions at the National University of Singapore and New York University. At NUS, I am a part of the Multi-Agent Robotic Motion Lab advised by Guillaume Sartoretti . At NYU, I am a part of the CILVR cluster advised by Lerrel Pinto. My research primarily lies at the intersection of reinforcement learning and robotics. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+### Research Interests 
+I am amazed by the capabilities of the human mind and aspire to develop intelligent systems with the ability to generalize, adapt and evolve in the real world. I see my research encompassing the domains of machine learning (with a focus on reinforcement learning), vision and robotics. **My current topics of focus are - curriculum learning for reinforcement learning agents and multi-agent traffic signal control.** 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
