@@ -19,7 +19,7 @@ Hello! I am Mehul Damani, a final year undergraduate studying Mechanical Enginee
 ### Research Interests 
 I am amazed by the capabilities of the human mind and aspire to develop intelligent systems with the ability to generalize, adapt and evolve in the real world. I see my research encompassing the domains of machine learning (with a focus on reinforcement learning), vision and robotics. **My current topics of focus are - [curriculum learning][curriculum] for reinforcement learning agents, [multi-agent traffic signal control][traffic] and [multi-agent pathfinding][mapf].**   
 
-Previously, I used to work at the interface of aerospace engineering and robotics. I was fortunate to have been involved with a number of research groups at NTU to work on cutting-edge projects such as Vertical Take-off and Landing Aircrafts (VTOL), high-altitude balloons and satellite attitude control systems. These projects sparked my initial interest in control and played a pivotal role in evolving my research interests into their current form: **Reinforcement Learning (AI-based Control)**. 
+Previously, I used to work at the interface of aerospace engineering and robotics. I was fortunate to have been involved with a number of research groups at NTU to work on cutting-edge projects such as Vertical Take-off and Landing Aircrafts (VTOL), high-altitude balloons and satellite attitude control systems. These projects sparked my initial interest in control and played a pivotal role in evolving my research interests to their current form i.e., **Reinforcement Learning (AI-based Control)**. 
 
 
 [marmot]: https://marmotlab.org
