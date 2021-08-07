@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am Mehul Damani, a final year undergraduate studying Mechanical Engineering at [NTU, Singapore][ntu]. Currently, I hold concurrent research positions at the National University of Singapore and New York University. At NUS, I am a part of the [Multi-Agent Robotic Motion Lab][marmot] advised by [Guillaume Sartoretti][guillaume] . At NYU, I am a part of the [CILVR][cilvr] cluster advised by [Lerrel Pinto][lerrel]. My research primarily lies at the intersection of reinforcement learning and robotics. 
+Hello! I am Mehul Damani, a final year undergraduate studying Mechanical Engineering at [NTU, Singapore][ntu]. Currently, I hold concurrent research positions at the National University of Singapore and New York University. At NUS, I am a part of the [Multi-Agent Robotic Motion Lab][marmot] advised by [Guillaume Sartoretti][guillaume] . At NYU, I am a part of the [CILVR][cilvr] cluster advised by [Lerrel Pinto][lerrel]. **My research primarily lies at the intersection of reinforcement learning and robotics**. 
 
 ### Research Interests 
 I am amazed by the capabilities of the human mind and aspire to develop intelligent systems with the ability to generalize, adapt and evolve in the real world. I see my research encompassing the domains of machine learning (with a focus on reinforcement learning), vision and robotics. **My current topics of focus are - [curriculum learning][curriculum] for reinforcement learning agents, [multi-agent traffic signal control][traffic] and [multi-agent pathfinding][mapf].**   
