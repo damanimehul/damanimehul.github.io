@@ -4,7 +4,7 @@ title: Flatland Challenge
 description: Multi Agent Reinforcement Learning on Trains 
 img: /assets/img/flatland/cover.png
 importance: 1
-category: [aerospace,robotics] 
+category: [machine learning,robotics] 
 
 ---
 
