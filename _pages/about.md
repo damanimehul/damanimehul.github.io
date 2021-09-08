@@ -6,7 +6,7 @@ description: Researcher in robotics and machine learning
 
 profile:
   align: right
-  image: math-screenshot.png
+  image: prof_pic.jpg
   address: >
 
 news: true  # includes a list of news items
