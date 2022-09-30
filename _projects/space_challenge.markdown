@@ -18,7 +18,7 @@ category: [aerospace]
 
 
 **Optimal Debris Deorbiting system is a satellite system concept to clear space debris in the Low Earth Orbit (LEO) using Ion beams.**    
- It was envisioned by a team of 4 and was our solution to the [Singapore Space Challenge, 2020][ssc]. Extensive research was done to come up with the concept, design and detailing of various parts of the satellite ensemble, including refuelling, propulsion, control etc. A 46-page final report, video and PowerPoint presentation, as well STK/MATLAB simulations showing the actual deorbiting plan were created as a part of the submission. 
+ It was was our solution to the [Singapore Space Challenge, 2020][ssc]. Extensive research was done to come up with the concept, design and detailing of various parts of the satellite ensemble, including refuelling, propulsion, control etc. A 46-page final report, video and PowerPoint presentation, as well STK/MATLAB simulations showing the actual deorbiting plan were created as a part of the submission. 
 
 Our proposed solution consists of a satellite acting as a mothership, and two smaller satellites called deorbiters which will be responsible for targeting and removing space debris using the Ion Beam Shepherd Method.
 
