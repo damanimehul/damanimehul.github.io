@@ -18,6 +18,30 @@
   abstract = 	 {The Flatland competition aimed at finding novel approaches to solve the vehicle re-scheduling problem (VRSP). The VRSP is concerned with scheduling trips in traffic networks and the re-scheduling of vehicles when disruptions occur, for example the breakdown of a vehicle. While solving the VRSP in various settings has been an active area in operations research (OR) for decades, the ever-growing complexity of modern railway networks makes dynamic real-time scheduling of traffic virtually impossible. Recently, multi-agent reinforcement learning (MARL) has successfully tackled challenging tasks where many agents need to be coordinated, such as multiplayer video games. However, the coordination of hundreds of agents in a real-life setting like a railway network remains challenging and the Flatland environment used for the competition models these real-world properties in a simplified manner. Submissions had to bring as many trains (agents) to their target stations in as little time as possible. While the best submissions were in the OR category, participants found many promising MARL approaches. Using both centralized and decentralized learning based approaches, top submissions used graph representations of the environment to construct tree-based observations. Further, different coordination mechanisms were implemented, such as communication and prioritization between agents. This paper presents the competition setup, four outstanding solutions to the competition, and a cross-comparison between them.	}
 }
 
+@article{casper2023open,
+  title={Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback},
+  author={Casper, Stephen and Davies, Xander and Shi, Claudia and Gilbert, Thomas Krendl and Scheurer, J{\'e}r{\'e}my and Rando, Javier and Freedman, Rachel and Korbak, Tomasz and Lindner, David and Freire, Pedro and others},
+  journal={arXiv preprint arXiv:2307.15217},
+  year={2023},
+  selected={true}
+}
+
+@inproceedings{10.5555/3545946.3598809,
+author = {Goel, Harsh and Zhang, Yifeng and Damani, Mehul and Sartoretti, Guillaume},
+title = {SocialLight: Distributed Cooperation Learning towards Network-Wide Traffic Signal Control},
+year = {2023},
+isbn = {9781450394321},
+publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
+address = {Richland, SC},
+abstract = {Many recent works have turned to multi-agent reinforcement learning (MARL) for adaptive traffic signal control to optimize the travel time of vehicles over large urban networks. However, achieving effective and scalable cooperation among junctions (agents) remains an open challenge, as existing methods often rely on extensive, non-generalizable reward shaping or on non-scalable centralized learning. To address these problems, we propose a new MARL method for traffic signal control, SocialLight, which learns cooperative traffic control policies by distributedly estimating the individual marginal contribution of agents on their local neighborhood. SocialLight relies on the Asynchronous Actor Critic (A3C) framework, and makes learning scalable by learning a locally-centralized critic conditioned over the states and actions of neighboring agents, used by agents to estimate individual contributions by counterfactual reasoning. We further introduce important modifications to the advantage calculation that help stabilize policy updates. These modifications decouple the impact of the neighbors' actions on the computed advantages, thereby reducing the variance in the gradient updates. We benchmark our trained network against state-of-the-art traffic signal control methods on standard benchmarks in two traffic simulators, SUMO and CityFlow. Our results show that SocialLight exhibits improved scalability to larger road networks and better performance across usual traffic metrics.},
+booktitle = {Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems},
+pages = {1551–1559},
+numpages = {9},
+keywords = {adaptive traffic signal control, multi-agent reinforcement learning, autonomous signal control},
+location = {London, United Kingdom},selected={true},
+series = {AAMAS '23}
+}
+
 
 @ARTICLE{9366340,
   author={Damani, Mehul and Luo, Zhiyao and Wenzel, Emerson and Sartoretti, Guillaume},
@@ -50,3 +74,10 @@
   month    =  {sep},
   year     =  {2022},selected={true},
   url      = {https://link.springer.com/article/10.1007/s43154-022-00091-8}}
+
+@inproceedings{zhangmulti,
+  title={Multi-Agent Traffic Signal Control via Distributed RL with Spatial and Temporal Feature Extraction},
+  author={Zhang, Yifeng and Damani, Mehul and Sartoretti, Guillaume},
+  booktitle={International Workshop on Agent-Based Modelling of Urban Systems (ABMUS)},
+  pages={73}
+}
