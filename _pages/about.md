@@ -16,10 +16,10 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! I am a second year PhD student at MIT, where I am part of the [Algorithmic Alignment Lab][dylan], advised by Dylan Hadfield-Menell. 
 
-My high level research goal is to develop reinforcement learning (RL) agents that can learn, adapt, and co-operate in the real world.
-I am interested in both single-agent and co-operative multi-agent RL.  
-I am also excited by the prospect of applying RL to solve real-world problems such as warehouse automation and traffic signal control. 
-Finally, I am motivated by the general principle of designing AI systems that are aligned with human goals. 
+My high level research goal is to develop reinforcement learning (RL) systems that are aligned with human values and goals.
+I am particularly interested in studying cooperation in multi-agent systems, which encompasses both pure agent teams as well as human-AI teams.
+Finally, I am also excited by the prospect of applying RL to solve real-world problems such as warehouse automation and traffic signal control. 
+
 
 Previously, I have worked with [Lerrel Pinto][lerrel] at NYU on developing automatic curriculum learning methods for RL agents. Before that, I was a part of the [MARMot Lab][marmot] at NUS, where I worked with [Guillaume Sartoretti][guillaume] on applying multi-agent reinforcement learning to [traffic signal control][traffic] and [multi-agent pathfinding][mapf]. 
 
