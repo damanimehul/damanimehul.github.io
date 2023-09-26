@@ -14,7 +14,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Hello! I am a second year PhD student at MIT, where I am part of the [Algorithmic Alignment Lab][dylan], advised by Dylan Hadfield-Menell. 
+Hello! I am a second year Master's student at MIT, where I am part of the [Algorithmic Alignment Lab][dylan], advised by Dylan Hadfield-Menell. 
 
 My high level research goal is to develop reinforcement learning (RL) systems that are aligned with human values and goals.
 I am particularly interested in studying cooperation in multi-agent systems, which encompasses both pure agent teams as well as human-AI teams.
