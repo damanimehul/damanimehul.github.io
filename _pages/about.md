@@ -16,8 +16,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! I am a second year Ph.D. student at MIT, where I am part of the [Algorithmic Alignment Lab][dylan], advised by Dylan Hadfield-Menell. 
 
-My high level research goal is to develop reinforcement learning (RL) systems that are aligned with human values and goals.
+My high level research goal is to develop generally capable reinforcement learning (RL) systems that are aligned with human values and goals.
 I am particularly interested in studying cooperation in multi-agent systems, which encompasses both pure agent teams as well as human-AI teams.
+Recently, I have also become interested in methods that harness the common-sense knowledge of LLM’s to guide RL agents. 
 Finally, I am also excited by the prospect of applying RL to solve real-world problems such as warehouse automation and traffic signal control. 
 
 
