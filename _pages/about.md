@@ -22,7 +22,7 @@ I am also interested in studying cooperation in multi-agent systems, which encom
 Finally, I am excited by the prospect of applying RL to solve real-world problems such as warehouse automation and traffic signal control. 
 
 
-Previously, I have worked with [Lerrel Pinto][lerrel] at NYU on developing automatic curriculum learning methods for RL agents. Before that, I was a part of the [MARMot Lab][marmot] at NUS, where I worked with [Guillaume Sartoretti][guillaume] on applying multi-agent reinforcement learning to [traffic signal control][traffic] and [multi-agent pathfinding][mapf]. 
+Previously, I worked with [Lerrel Pinto][lerrel] at NYU on developing automatic curriculum learning methods for RL agents. Before that, I was a part of the [MARMot Lab][marmot] at NUS, where I worked with [Guillaume Sartoretti][guillaume] on applying multi-agent reinforcement learning to [traffic signal control][traffic] and [multi-agent pathfinding][mapf]. 
 
 
 [marmot]: https://marmotlab.org
