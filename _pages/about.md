@@ -14,15 +14,17 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Hello! I am a second year Ph.D. student at MIT, where I am advised by Jacob Andreas. 
+Hello! I am a third year Ph.D. student at MIT, where I am advised by [Jacob Andreas][jacob]. 
 
-My high level research goal is to develop generally capable reinforcement learning (RL) systems that are aligned with human values and goals.
-I am particularly interested in methods that harness the common-sense knowledge of LLM’s to guide RL agents. 
-I am also interested in studying cooperation in multi-agent systems, which encompasses both pure agent teams as well as human-AI teams.
-Finally, I am excited by the prospect of applying RL to solve real-world problems such as warehouse automation and traffic signal control. 
-
+My research interests lie at the intersection of reinforcement learning (RL) and large language models (LLMs).
+I believe that RL and LLMs have the potential to synergistically improve each other. 
+I am very excited by the potential of RL to improve reasoning, math, coding, and other capabilities in LLMs. 
+Similarly, I am also interested in harnessing the common-sense knowledge of LLM’s to bootstrap RL methods. 
+Finally, having worked on multi-agent RL in the past, I am also interested in studying cooperation in multi-agent settings, with a particular focus on understanding how LLM agents can be integrated into and benefit from multi-agent frameworks. 
 
 Previously, I worked with [Lerrel Pinto][lerrel] at NYU on developing automatic curriculum learning methods for RL agents. Before that, I was a part of the [MARMot Lab][marmot] at NUS, where I worked with [Guillaume Sartoretti][guillaume] on applying multi-agent reinforcement learning to [traffic signal control][traffic] and [multi-agent pathfinding][mapf]. 
+
+I'm always excited to explore new research directions and am open to collaborating or advising students. If you are interested in my research or simply want to chat, don't hesitate to get in touch!
 
 
 [marmot]: https://marmotlab.org
@@ -35,4 +37,4 @@ Previously, I worked with [Lerrel Pinto][lerrel] at NYU on developing automatic 
 [mapf]: https://ieeexplore.ieee.org/abstract/document/9366340
 [cathy]: http://www.wucathy.com/blog/ 
 [dylan]: https://algorithmicalignment.csail.mit.edu  
-
+[jacob]: https://www.mit.edu/~jda/
