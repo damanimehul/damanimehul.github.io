@@ -19,7 +19,7 @@ Hello! I am a third year Ph.D. student at MIT, where I am advised by [Jacob Andr
 My research interests lie at the intersection of reinforcement learning (RL) and large language models (LLMs).
 I believe that RL and LLMs have the potential to synergistically improve each other. 
 I am very excited by the potential of RL to improve reasoning, math, coding, and other capabilities in LLMs. 
-Similarly, I am also interested in harnessing the common-sense knowledge of LLM’s to bootstrap RL methods. 
+Similarly, I am also interested in harnessing the common-sense knowledge of LLM’s to bootstrap RL methods.\ 
 Finally, having worked on multi-agent RL in the past, I am also interested in studying cooperation in multi-agent settings, with a particular focus on understanding how LLM agents can be integrated into and benefit from multi-agent frameworks. 
 
 Previously, I worked with [Lerrel Pinto][lerrel] at NYU on developing automatic curriculum learning methods for RL agents. Before that, I was a part of the [MARMot Lab][marmot] at NUS, where I worked with [Guillaume Sartoretti][guillaume] on applying multi-agent reinforcement learning to [traffic signal control][traffic] and [multi-agent pathfinding][mapf]. 
