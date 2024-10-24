@@ -11,7 +11,7 @@
   Mehul Damani
 
 
-  | blog
+  | High Altitude Balloon
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -32,7 +32,7 @@
 
 <!-- Styles -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/balloon/">
 
 
 
@@ -114,8 +114,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/assets/pdf/resume.pdf">
                 cv
@@ -143,8 +141,8 @@
           
           
           
-            <div class = "toggle-container">
-              <a id = "light-toggle">
+            <div class="toggle-container">
+              <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>
@@ -163,18 +161,65 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>general and technical thoughts, rants and insights</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">High Altitude Balloon</h1>
+    <p class="post-description">Conducting experiments in near space</p>
+  </header>
+
+  <article>
+    <p>Over the course of summer 2019, I worked on <a href="https://www.highaltitudescience.com/pages/intro-to-weather-balloons">high altitude balloons</a> as a research intern at <a href="https://www.ntu.edu.sg/temasek-labs">Temasek Labs</a> in NTU. High altitude balloons (HAB) are a robust and low-cost method to conduct scientific experiments in the near space region.</p>
+
+<p>First, I conducted an extensive lierature survey on high altitude balloons to understand the various challenges in launching a HAB such as proper insulation of payload against temperatures as low as -50 C and robust tracking systems to successfully retrieve the payload after touchdown. Following this, I experimented with a multitude of prospective sensors and tracking systems for the payload - temperature sensors, Geiger counters, inertial measurement units (IMU), <a href="http://www.daveakerman.com/?p=2828">LoRa (Long Range)</a> tracking and SPOT tracker. I interfaced these sensors with standard microcontrollers such as Arduino and PyCom.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/high_alt_balloon/balloon1.jpg" alt="" title="example image">
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/high_alt_balloon/balloon2.jpg" alt="" title="example image">
+    </div>
+</div>
+<div class="caption">
+    Left: Launch site for our balloon in Malaysia, Right: Helium balloon
+</div>
+
+<p>In August 2019, we finally had the chance to launch a high altitude balloon in collaboration with two universities in Malaysia! The NTU team (comprising of 5 members) travelled down to Kuala Lumpur and on September 1,2019  we successfully launched and retrieved two HABs. Our NTU team’s payload primary payload was a new tracking system called <a href="http://www.daveakerman.com/?p=2828">LoRa (Long Range)</a> to track and retrieve data from the balloon in real-time. LoRa proved to be really robust and we were able to successfully receive data even at large line-of-sight distances. Not only did the experiments provide us with some valuable data, the onboard camera also helped us capture some spectacular images of earth from near-space. <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"></p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/high_alt_balloon/flightpath.png" alt="" title="example image">
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/high_alt_balloon/tracking_system.png" alt="" title="example image">
+    </div>
+</div>
+<div class="caption">
+    Left: Trajectory of balloon plotted on Google Maps, Right: Tracking of balloon through multiple communication systems
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/high_alt_balloon/team.jpeg" alt="" title="example image">
+    </div>
+</div>
+<div class="caption">
+    NTU Team at balloon launch site in Malaysia 
+</div>
+
+<p>The joint venture was the first of its kind and was an enriching experience for all of us. Back in NTU, I had the honour to present my work to a bunch of space enthusiasts!  <br>
+<strong>Media Coverage</strong> : <a href="https://www.spacetechasia.com/singapore-malaysia-universities-conduct-joint-high-altitude-balloon-experiments/">Space Tech Asia</a></p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/high_alt_balloon/presentation.jpeg" alt="" title="example image">
+    </div>
+</div>
+<div class="caption">
+    Presenting my high-altitude balloon research at NTU 
+</div>
 
 
-  <ul class="post-list">
-    
-  </ul>
-
-  
-
+  </article>
 
 </div>
 
@@ -185,7 +230,7 @@
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2024 Mehul  Damani.
+    © Copyright 2024 Mehul  Damani.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
