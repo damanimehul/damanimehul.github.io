@@ -23,9 +23,6 @@
       {% elsif entry.type == "inproceedings" %}
         <span class="venue">{{entry.booktitle}}</span>
       {% endif %}
-      {% if entry.year %}
-        <span class="year">{{entry.year}}</span>
-      {% endif %}
       </div>
       <div class="author">
         {% for author in entry.author_array %}
