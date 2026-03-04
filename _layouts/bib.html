@@ -2,7 +2,7 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3 abbr">
   {% if entry.image %}
     {% if entry.image contains '://' %}
       <img class="img-fluid z-depth-1 rounded paper-thumb" src="{{ entry.image }}" alt="Thumbnail for {{ entry.title }}">
@@ -12,7 +12,7 @@
   {% endif %}
   </div>
 
-  <div id="{{entry.key}}" class="col-sm-8">
+  <div id="{{entry.key}}" class="col-sm-9">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
