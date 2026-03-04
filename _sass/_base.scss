@@ -365,10 +365,10 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
-    border-top: 1px solid $grey-color-light;
-    padding-top: 1rem;
-    margin-top: 2rem;
+    color: var(--global-text-color);
+    border-top: 2px solid var(--global-text-color);
+    padding-top: 1.25rem;
+    margin-top: 2.5rem;
     margin-bottom: -2rem;
     text-align: right;
   }
@@ -387,15 +387,15 @@ footer.sticky-bottom {
       img.paper-thumb {
         display: block;
         width: 100%;
-        max-width: 7.5rem;
-        max-height: 4.5rem;
+        max-width: 11.25rem;
+        max-height: 6.75rem;
         margin-bottom: 0.5rem;
         object-fit: cover;
         border-radius: 0.25rem;
       }
       .title {
         font-weight: bolder;
-        font-size: 1.05rem;
+        font-size: 1.25rem;
       }
       .periodical {
         .venue {
@@ -403,7 +403,6 @@ footer.sticky-bottom {
         }
         .year {
           margin-left: 0.5rem;
-          color: $grey-color-light;
         }
       }
       .author {
@@ -468,6 +467,13 @@ footer.sticky-bottom {
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
+      }
+    }
+    &:not(:last-of-type) {
+      li:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
       }
     }
   }
