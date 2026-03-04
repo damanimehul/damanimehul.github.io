@@ -10,13 +10,6 @@
       <img class="img-fluid z-depth-1 rounded paper-thumb" src="{{ entry.image | prepend: '/assets/img/papers/' | relative_url }}" alt="Thumbnail for {{ entry.title }}">
     {% endif %}
   {% endif %}
-  {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
-    {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-    {% endif %}
-  {% endif %}
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
@@ -24,6 +17,16 @@
       {{reference}}
     {% else %}
       <div class="title">{{entry.title}}</div>
+      <div class="periodical">
+      {% if entry.type == "article" %}
+        <span class="venue">{{entry.journal}}</span>
+      {% elsif entry.type == "inproceedings" %}
+        <span class="venue">{{entry.booktitle}}</span>
+      {% endif %}
+      {% if entry.year %}
+        <span class="year">{{entry.year}}</span>
+      {% endif %}
+      </div>
       <div class="author">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
@@ -72,17 +75,6 @@
             {% endunless %}
           {% endif %}
         {% endfor %}
-      </div>
-
-      <div class="periodical">
-      {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
-      {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
-      {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
-      {% endif %}
       </div>
     {% endif %}
 

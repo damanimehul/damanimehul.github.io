@@ -380,34 +380,28 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       .abbr {
-        height: 2rem;
         margin-bottom: 0.5rem;
-        abbr {
-          display: inline-block;
-          background-color: var(--global-theme-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          a {
-            color: white;
-            &:hover {
-              text-decoration: none;
-            }
-          }
-        }
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
       }
       img.paper-thumb {
         display: block;
-        max-height: 7rem;
+        width: 100%;
+        max-width: 7.5rem;
+        max-height: 4.5rem;
         margin-bottom: 0.5rem;
         object-fit: cover;
         border-radius: 0.25rem;
       }
       .title {
         font-weight: bolder;
+      }
+      .periodical {
+        .venue {
+          font-weight: 600;
+        }
+        .year {
+          margin-left: 0.5rem;
+          color: $grey-color-light;
+        }
       }
       .author {
         a {
