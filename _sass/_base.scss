@@ -399,6 +399,13 @@ footer.sticky-bottom {
           border: 1px solid var(--global-theme-color);
         }
       }
+      img.paper-thumb {
+        display: block;
+        max-height: 7rem;
+        margin-bottom: 0.5rem;
+        object-fit: cover;
+        border-radius: 0.25rem;
+      }
       .title {
         font-weight: bolder;
       }

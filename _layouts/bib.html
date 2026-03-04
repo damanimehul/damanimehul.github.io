@@ -3,6 +3,13 @@
 
 <div class="row">
   <div class="col-sm-2 abbr">
+  {% if entry.image %}
+    {% if entry.image contains '://' %}
+      <img class="img-fluid z-depth-1 rounded paper-thumb" src="{{ entry.image }}" alt="Thumbnail for {{ entry.title }}">
+    {% else %}
+      <img class="img-fluid z-depth-1 rounded paper-thumb" src="{{ entry.image | prepend: '/assets/img/papers/' | relative_url }}" alt="Thumbnail for {{ entry.title }}">
+    {% endif %}
+  {% endif %}
   {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
