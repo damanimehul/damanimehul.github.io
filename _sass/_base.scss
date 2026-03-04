@@ -378,7 +378,9 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid $grey-color-light;
       .abbr {
         margin-bottom: 0.5rem;
       }
@@ -393,6 +395,7 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        font-size: 1.05rem;
       }
       .periodical {
         .venue {
@@ -414,6 +417,7 @@ footer.sticky-bottom {
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 600;
         }
       }
       .links {
