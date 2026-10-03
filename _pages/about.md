@@ -14,9 +14,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-Hello! I am a fourth year Ph.D. student at MIT advised by [Jacob Andreas][jacob]. 
+Hello! I am a fifth year Ph.D. student at MIT advised by [Jacob Andreas][jacob]. 
 
 My research interests lie at the intersection of RL and LLMs, where I actively think about how RL can be used to drive improvements in a wide range of LLM capabilities. Currently, I’m exploring methods that leverage the general-purpose abilities of LLMs to augment or improve standard learning algorithms. In recent work, I worked on using RL to improve calibration and reduce hallucinations in LLMs.
+
+**I am currently on the job market looking for roles starting in early 2027. If you are recruiting or know of opportunities, please reach out!**
+
 <!-- My research interests lie at the intersection of reinforcement learning (RL) and large language models (LLMs).
 I am very excited by the potential of RL to improve reasoning, math, coding, and other capabilities in LLMs. Currently, I’m interested in developing methods that leverage the general-purpose capabilities of LLMs to augment or improve standard learning algorithms. Previously, I worked on developing RL methods that can improve calibration and reduce hallucinations in LLMs. -->
 <!-- the paradigm of [inference-time compute][compute], and how optimally selecting inference-time techniques can significantly improve the efficiency of LLMs.    -->
