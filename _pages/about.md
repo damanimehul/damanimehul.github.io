@@ -18,9 +18,10 @@ Hello! I am a fifth year Ph.D. student at MIT advised by [Jacob Andreas][jacob].
 
 My research interests lie at the intersection of RL and LLMs, with a focus on how learning objectives shape model behavior and reliability. 
 Currently, I am thinking about multi-agent RL and swarm alignment. 
+
 My recent work has focused on improving LLM reliability through RL for calibration and hallucination reduction [(RLCR)][rlcr], self-distillation for continual learning [(SDFT)][sdft], and adversarial learning for alignment [(VARL)][right].
 
-<span style="color: red;"><strong>I am currently on the job market looking for roles starting in early 2027. If you are recruiting or know of opportunities, please reach out!</strong></span>
+<div style="color: red;"><strong>I am currently on the job market looking for roles starting in early 2027. If you are recruiting or know of opportunities, please reach out!</strong></div>
 
 <!-- My research interests lie at the intersection of reinforcement learning (RL) and large language models (LLMs).
 I am very excited by the potential of RL to improve reasoning, math, coding, and other capabilities in LLMs. Currently, I’m interested in developing methods that leverage the general-purpose capabilities of LLMs to augment or improve standard learning algorithms. Previously, I worked on developing RL methods that can improve calibration and reduce hallucinations in LLMs. -->
