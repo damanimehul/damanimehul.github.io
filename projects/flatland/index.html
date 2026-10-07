@@ -11,7 +11,7 @@
   Mehul Damani
 
 
-  | blog
+  | Flatland Challenge
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -32,7 +32,7 @@
 
 <!-- Styles -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/flatland/">
 
 
 
@@ -114,8 +114,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/assets/pdf/resume.pdf">
                 cv
@@ -163,18 +161,44 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>general and technical thoughts, rants and insights</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Flatland Challenge</h1>
+    <p class="post-description">Multi Agent Reinforcement Learning on Trains</p>
+  </header>
+
+  <article>
+    <h3 id="introduction">Introduction</h3>
+<p>The <a href="https://www.aicrowd.com/challenges/flatland-challenge">Flatland Challenge</a> was a competition to foster progress in multi-agent reinforcement learning for the vehicle re-scheduling problem (VRSP).The “Flatland” Competition aimed to address the vehicle rescheduling problem by providing a simplistic 2D grid world environment to represent railway networks. The challenge addressed a real-world problem faced by many transportation and logistics companies around the world such as the Swiss Federal Railways and SBB. <strong>It was an official competition of the <a href="https://neurips.cc/Conferences/2020/CompetitionTrack">NeurIPS-2020</a> conference.</strong></p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/flatland/trains.gif" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    Toy problem in Flatland environment
+</div>
+
+<h3 id="problem-statement">Problem Statement</h3>
+<p>The overall goal of the challenge was to make all agents (trains) arrive at their target destination with a minimal travel time. However, unlike classic multi-agent pathfinding problems, Flatland posed singificant additional challenges in the form of a highly constrained, irreversible environment and a sparsity of important decisions. These challenges made it difficult to find solutions using standard RL approaches, and custom observation spaces, reward structures, network architectures needed to be contrived.</p>
+
+<h3 id="our-solution">Our Solution</h3>
+<p>Our solution built upon the multi-agent decentralized RL framework for MAPF in grid environments proposed in our previous work, PRIMAL2. Taking inspiration from <a href="https://arxiv.org/abs/2010.08184">PRIMAL2</a>, we constructed a rich feature based observation for agents and used a shallow fully connected neural network architecture. We used the popular A3C learning algorithm for training. Our solution drew inspiration from the use of traffic lights, which are effective in managing traffic at bottlenecks such as junctions and crossings. <strong>Our solution placed fourth in the RL track of the compeition and we were also delighted to be coauthors of the Flatland paper at NeurIPS</strong>!</p>
+
+<p><strong>Flatland Paper accepted at NeurIPS-2020 Compeition Track</strong>: <a href="https://arxiv.org/abs/2103.16511">Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World</a></p>
+
+<p><strong>Code:</strong> <a href="https://github.com/marmotlab/flatland-challenge-neurips-2020">Flatland Solution</a></p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/flatland/cover2.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+</div>
 
 
-  <ul class="post-list">
-    
-  </ul>
-
-  
-
+  </article>
 
 </div>
 
