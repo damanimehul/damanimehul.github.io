@@ -21,7 +21,7 @@ Currently, I am thinking about multi-agent RL and swarm alignment.
 
 My recent work has focused on improving LLM reliability through RL for calibration and hallucination reduction [(RLCR)][rlcr], self-distillation for continual learning [(SDFT)][sdft], and adversarial learning for alignment [(VARL)][right].
 
-<div style="color: red;"><strong>I am currently on the job market looking for roles starting in early 2027. If you are recruiting or know of opportunities, please reach out!</strong></div>
+<strong style="color: maroon;">I am currently on the job market looking for roles starting in early 2027. If you are recruiting or know of opportunities, please reach out!</strong>
 
 <!-- My research interests lie at the intersection of reinforcement learning (RL) and large language models (LLMs).
 I am very excited by the potential of RL to improve reasoning, math, coding, and other capabilities in LLMs. Currently, I’m interested in developing methods that leverage the general-purpose capabilities of LLMs to augment or improve standard learning algorithms. Previously, I worked on developing RL methods that can improve calibration and reduce hallucinations in LLMs. -->
@@ -29,6 +29,7 @@ I am very excited by the potential of RL to improve reasoning, math, coding, and
 <!-- I believe that RL and LLMs can synergistically improve each other.  -->
 <!-- Similarly, I am also interested in harnessing the common-sense knowledge of LLM’s to bootstrap RL. -->
 <!-- Finally, having worked on multi-agent RL in the past, I am also interested in studying cooperation in multi-agent settings, with a particular focus on understanding how LLM agents can be integrated into and benefit from multi-agent frameworks.  -->
+
 
 Previously, I worked with [Lerrel Pinto][lerrel] at NYU on developing automatic curriculum learning methods for RL agents. Before that, I was a part of the [MARMot Lab][marmot] at NUS, where I worked with [Guillaume Sartoretti][guillaume] on applying multi-agent reinforcement learning to [traffic signal control][traffic] and [multi-agent pathfinding][mapf]. 
 
